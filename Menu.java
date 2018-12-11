@@ -15,6 +15,23 @@ public class Menu {
 		int res = 1;		
 		MenuPrincipal(res);
 	}
+package calculoareas; // Paquete Java
+
+import java.util.Scanner; // Importar la clase Scanner
+
+/**
+ * Menu para calcular el area de figuras
+ * @author Carlos Castillo
+ * @version 1.0
+ */
+
+
+public class Menu {
+
+	public static void main (String[] args){ 	
+		int res = 1;		
+		MenuPrincipal(res);
+	}
 
 	// Metodo del menu principal
 	public static void MenuPrincipal(int respuesta){
@@ -42,12 +59,12 @@ public class Menu {
 			
 		case 2:
 			System.out.println(" 2 Calcular el área de un trapecio   ");	
-			// F
+			Trapecio.CalcuAreaTrapecio(respuesta);
 			break;
 			
 		case 3:
 			System.out.println(" 3 Calcular el área de un rectángulo ");
-			// F
+			Rectangulo.CalcuAreaRectangulo(respuesta);
 			break;
 			
 		case 4:

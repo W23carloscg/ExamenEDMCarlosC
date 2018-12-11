@@ -1,6 +1,9 @@
 package calculoareas; // Paquete Java
 
 import java.util.Scanner; // Importar la clase Scanner
+package calculoareas; // Paquete Java
+
+import java.util.Scanner; // Importar la clase Scanner
 
 /**
  * Funcion Java que calcula el área de un Trapecio 
@@ -12,11 +15,11 @@ public class Trapecio {
 
 	public static void main (String[] args){ 	
 		int res = 1;		
-		CalcuAreaTriangulo(res);
+		CalcuAreaTrapecio(res);
 	}
 	
 	// Metodo que calcula el area del trapecio
-	public static void CalcuAreaTriangulo(int respuesta){
+	public static void CalcuAreaTrapecio(int respuesta){
 
 		int base1;
 		int base2;
@@ -57,5 +60,6 @@ public class Trapecio {
 		}
 	}
 }
+
 
 
